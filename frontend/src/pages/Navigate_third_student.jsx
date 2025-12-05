@@ -5,8 +5,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Classes from "../components/Classes";
 import { useParams } from "react-router-dom";
-import Firstyear from "../components/Firstyear";
-import thirdyear from "../components/thirdyear";
 import Thirdyear from "../components/Thirdyear";
 
 const DashboardContainer = styled.div`
