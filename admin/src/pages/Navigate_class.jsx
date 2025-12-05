@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Classes from "../components/classes";
+import Classes from "../components/Classes";
 import { useParams } from "react-router-dom";
 
 const DashboardContainer = styled.div`
