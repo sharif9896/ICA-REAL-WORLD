@@ -1,1 +1,1 @@
-export const BACKEND_URL = "http://localhost:1956/";
+export const BACKEND_URL = "https://ica-real-world.onrender.com/";
