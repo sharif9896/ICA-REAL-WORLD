@@ -1,0 +1,32 @@
+.neon-text {
+  color: #fff;
+  text-shadow: 0 0 5px #00ffe0, 0 0 10px #00ffe0, 0 0 20px #00ffe0,
+    0 0 40px #00ffe0;
+  animation: flicker 1.5s infinite alternate, shine 2.5s linear infinite;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* z-index: -1; */
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: -150% 0;
+  }
+  100% {
+    background-position: 150% 0;
+  }
+}

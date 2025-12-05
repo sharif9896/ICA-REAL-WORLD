@@ -1,0 +1,5 @@
+@import "tailwindcss";
+.dd:hover .cc {
+  background-color: gold;
+  color: #303030;
+}
